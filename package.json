@@ -8,7 +8,7 @@
     "test": "node test"
   },
   "dependencies": {
-    "amazon-reviews-crawler-eval": "escaladesports/amazon-reviews-crawler-eval#v0.1.4",
+    "amazon-reviews-crawler-eval": "escaladesports/amazon-reviews-crawler-eval#v0.1.5",
     "chromeless": "^1.2.0",
     "random-ua": "^0.0.6"
   },

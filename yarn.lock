@@ -18,6 +18,10 @@ amazon-reviews-crawler-eval@escaladesports/amazon-reviews-crawler-eval#v0.1.4:
   version "0.1.4"
   resolved "https://codeload.github.com/escaladesports/amazon-reviews-crawler-eval/tar.gz/8d5064c0328b185a26eaeb7c4292bc4b308a8a4c"
 
+amazon-reviews-crawler-eval@escaladesports/amazon-reviews-crawler-eval#v0.1.5:
+  version "0.1.5"
+  resolved "https://codeload.github.com/escaladesports/amazon-reviews-crawler-eval/tar.gz/2a80539550519b8730349d70be22d7f1e7fa62ab"
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
