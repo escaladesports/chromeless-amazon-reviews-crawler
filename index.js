@@ -10,12 +10,7 @@ const defaultOptions = {
 module.exports = (asin, opt) => {
 	return new Promise((resolve, reject) => {
 		opt = Object.assign({}, defaultOptions, opt)
-		new Chromeless({
-				remote: {
-					endpointUrl: opt.endpointUrl,
-					apiKey: opt.apiKey
-				}
-			})
+		new Chromeless()
 			.setUserAgent(opt.userAgent || randomUa.generate())
 			.goto(opt.page.replace('{{asin}}', asin))
 			.evaluate(evalFunction, opt)
